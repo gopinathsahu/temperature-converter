@@ -1,0 +1,122 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url('..//temperature/background.jpg') center center fixed;
+}
+
+h1:nth-child(1) {
+    text-align: center;
+    color: rgb(34, 4, 46);
+    text-decoration: underline;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.value {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #001012;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.value input {
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    color: rgb(234, 207, 207);
+}
+
+.select {
+    margin: 2% 0% 0% 50%;
+    color: #011113;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.select h3 {
+    color: #0f111b;
+    font-size: 25px;
+}
+
+.select h2 {
+    border: 2px solid black;
+}
+
+.result {
+    /* width: auto; */
+    text-align: center;
+    margin: 2% 0% 0% 39%;
+    /* background: #0db2cd; */
+    animation: pop-up 5s infinite ease-in-out alternate;
+    color: rgb(255, 255, 255);
+}
+
+@keyframes pop-up {
+    1% {
+        transform: scale(1);
+    }
+
+    10% {
+        background-color: aqua;
+        transform: scale(1.2);
+    }
+
+    20% {
+        background-color: burlywood;
+        transform: scale(1);
+    }
+
+    30% {
+        background-color: cornsilk;
+        transform: scale(1.2);
+    }
+
+    40% {
+        background-color: bisque;
+        transform: scale(1);
+    }
+
+    50% {
+        background-color: violet;
+        transform: scale(1.2);
+    }
+
+    60% {
+        background-color: thistle;
+        transform: scale(1);
+    }
+
+    70% {
+        background-color: tomato;
+        transform: scale(1.2);
+    }
+
+    80% {
+        background-color: sandybrown;
+        transform: scale(1);
+    }
+
+    90% {
+        background-color: palegoldenrod;
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

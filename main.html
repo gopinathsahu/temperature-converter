@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temprature Conversion</title>
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <h1>CONVERT YOUR TEMPRATURE UNIT</h1>
+    <div class="container">
+        <div class="form-container">
+            <div class="value">
+                Enter Temprature: <input type="number" id="num1" required>
+            </div>
+
+            <div class="select">
+                <h3>Choose the option:</h3>
+                <input type="radio" name="select" onclick="celsius()">Fahrenheit<br><br>
+                <input type="radio" name="select" onclick="fahrenheit()">Celsius
+            </div>
+            <div class="result">
+                <h2 id="answer" aria-placeholder="your answer will show here"></h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
